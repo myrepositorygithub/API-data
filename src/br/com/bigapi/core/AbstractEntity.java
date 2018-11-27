@@ -8,12 +8,14 @@ import javax.persistence.Id;
  *
  * @author Thiago
  */
-
 /**
- * <p> Provides for the specification of generation strategies for the values of primary keys, strategy = GenerationType.IDENTITY <p>
+ * <p>
+ * Provides for the specification of generation strategies for the values of
+ * primary keys, strategy = GenerationType.IDENTITY
+ * <p>
  * @author Thiago
  */
-public class AbstractEntity {
+public abstract class AbstractEntity {
 
     private Long id;
 
